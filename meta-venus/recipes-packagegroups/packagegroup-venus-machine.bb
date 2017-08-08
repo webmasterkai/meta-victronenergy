@@ -21,8 +21,6 @@ RDEPENDS_${PN}_append_ccgx += "\
 	mtd-utils \
 	mtd-utils-ubifs \
 	prodtest \
-	swupdate \
-	swupdate-scripts \
 "
 
 RDEPENDS_${PN}_append_beaglebone += "\
@@ -32,12 +30,8 @@ RDEPENDS_${PN}_append_beaglebone += "\
 	i2c-tools \
 	linux-firmware-rtl8723b \
 	prodtest \
-	swupdate \
-	swupdate-scripts \
 "
 
 RDEPENDS_${PN}_append_raspberrypi2 += "\
 	gpio-export \
-	swupdate \
-	swupdate-scripts \
 "

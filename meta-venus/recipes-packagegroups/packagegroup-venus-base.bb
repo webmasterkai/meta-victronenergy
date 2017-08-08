@@ -80,6 +80,8 @@ RDEPENDS_${PN} += "\
 	screen \
 	socat \
 	strace \
+	swupdate \
+	swupdate-scripts \
 	sysctl-conf \
 	tzdata \
 	tzdata-africa \

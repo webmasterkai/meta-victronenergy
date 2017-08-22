@@ -16,6 +16,16 @@ RDEPENDS_${PN} += "\
 	simple-upnpd \
 "
 
+RDEPENDS_${PN}_append_canvu500 += "\
+	evtest \
+	eglinfo-fb \
+	imx-kobs \
+	kmscube \
+	mtd-utils \
+	mtd-utils-ubifs \
+	pointercal \
+"
+
 RDEPENDS_${PN}_append_ccgx += "\
 	gpio-export \
 	mtd-utils \
